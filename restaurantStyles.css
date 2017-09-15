@@ -1,0 +1,23 @@
+ 
+   a {
+    color: #F39417;
+	text-decoration: overline;
+}
+
+a:hover {
+    text-decoration: overline;
+	color: purple;
+	font-weight: bold;
+}
+
+div.menu {
+    width: 80%;
+    text-align: left;
+}
+
+div.footer {
+    width:800px;
+    margin: auto;
+}
+
+   
