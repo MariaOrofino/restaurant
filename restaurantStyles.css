@@ -1,5 +1,13 @@
- 
-   a {
+@font-face {
+    font-family: FoglihtenNo07;
+    src: url(fonts/FoglihtenNo07.otf);
+} 
+  
+div.heading {
+    font-family: FoglihtenNo07.otf ;
+}
+
+a {
     color: #F39417;
 	text-decoration: overline;
 }
