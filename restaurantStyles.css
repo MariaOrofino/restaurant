@@ -4,9 +4,12 @@
 } 
   
 div.heading {
-    font-family: FoglihtenNo07.otf ;
-}
+    font-family: FoglihtenNo07.otf;
+    margin: auto;
+    }
 
+
+                        }    
 a {
     color: #F39417;
 	text-decoration: overline;
@@ -27,6 +30,9 @@ div.footer {
     width:800px;
     margin: auto;
 }
+td {
+    font-weight: bold;
+}
 
 .bevs
  {
@@ -36,3 +42,9 @@ div.footer {
 
 }
    
+div.one {
+    width:400px;
+    margin: auto;
+    border: 2px solid #000000;
+    background-color: rgb(226, 233, 248)
+}
