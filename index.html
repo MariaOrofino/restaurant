@@ -4,8 +4,8 @@
                 <title>FinoFood</title>
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
-               
-               
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
                  <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
                  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
                 
@@ -30,7 +30,45 @@
                   </p>
                   
                   <br><br>
+                 <div class="another">
+                  <!--code used from w3schools https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+
+                  <div id="FinoCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#FinoCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#FinoCarousel" data-slide-to="1"></li>
+                      <li data-target="#FinoCarousel" data-slide-to="2"></li>
+                    </ol>
                   
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <p>We're opening a new location! WOOT WOOT</p>
+                      </div>
+                  
+                      <div class="item">
+                        <p>We're rolling out our seasonal menu, with special options for this season.</p>
+                      </div>
+                  
+                      <div class="item">
+                        <p>The Drink of the Month is SG Special Brew.</p>
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#FinoCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-menu-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#FinoCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-menu-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+
+
                   <div class="jumbotron">
                    <p><h1>We're growing!!!!</h1></p>
                     <p>Fino Foods is expanding (not just around the middle, we are opening a second location in Wonderland!  We can't wait for you to fall down the rabbit hole with us.  See you in October.</p>
@@ -46,7 +84,7 @@
                   
                 </div></div>
                
-               
+               <p><center>Site best viewed with javascirpt enabled</center></p>
                
                   <hr>
 

@@ -46,5 +46,17 @@ div.one {
     width:400px;
     margin: auto;
     border: 2px solid #000000;
-    background-color: rgb(226, 233, 248)
+    background-color: #A5A3A3
+}
+
+div.another {
+    width:400px;
+    height:100px;
+    vertical-align: text-bottom;
+    border: 2px solid #000000;
+    background-color: #A5A3A3
+}
+
+.left carousel-control {
+    vertical-align: text-bottom;
 }
